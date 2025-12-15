@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: white;
+  padding: 25px 30px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.user-info p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.user-info span {
+  font-weight: bold;
+}
